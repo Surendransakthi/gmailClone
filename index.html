@@ -1,0 +1,418 @@
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Google Font Icons -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      <link rel="stylesheet" href="styles.css" />
+      <script src = script.js></script>
+      <title>Gmail Clone</title>
+    </head>
+    <body>
+      <!-- Header Starts -->
+      <div class="header">
+        <div class="header__left">
+          <span class="material-icons"> menu </span>
+          <img src="https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png"/>     
+        </div>
+
+        <div class="header__middle">
+          <span class="material-icons"> search </span>
+          <input type="text" placeholder="Search mail" />
+          <span class="material-icons"> arrow_drop_down </span>
+        </div>
+
+        <div class="header__right">
+          <span class="material-icons"> apps </span>
+          <span class="material-icons"> notifications </span>
+          <span class="material-icons"> account_circle </span>
+        </div>
+      </div>
+      <!-- Header Ends -->
+
+      <!-- Main Body Starts -->
+      <div class="main__body">
+        <!-- Sidebar Starts -->
+        <div class="sidebar">
+          <button class="sidebar__compose"><span class="material-icons"> add </span>Compose</button>
+          <div class="sidebarOption sidebarOption__active">
+            <span class="material-icons"> inbox </span>
+            <h3>Inbox</h3>
+          </div>
+
+          <div class="sidebarOption">
+            <span class="material-icons"> star </span>
+            <h3>Starred</h3>
+          </div>
+
+          <div class="sidebarOption">
+            <span class="material-icons"> access_time </span>
+            <h3>Snoozed</h3>
+          </div>
+
+          <div class="sidebarOption">
+            <span class="material-icons"> label_important </span>
+            <h3>Important</h3>
+          </div>
+
+          <div class="sidebarOption">
+            <span class="material-icons"> near_me </span>
+            <h3>Sent</h3>
+          </div>
+
+          <div class="sidebarOption">
+            <span class="material-icons"> note </span>
+            <h3>Drafts</h3>
+          </div>
+
+          <div class="sidebarOption">
+            <span class="material-icons"> expand_more </span>
+            <h3>More</h3>
+          </div>
+
+          <div class="sidebar__footer">
+            <div class="sidebar__footerIcons">
+              <span class="material-icons"> person </span>
+              <span class="material-icons"> duo </span>
+              <span class="material-icons"> phone </span>
+            </div>
+          </div>
+        </div>
+        <!-- Sidebar Ends -->
+
+        <!-- Email List Starts -->
+        <div class="emailList">
+          <!-- Settings Starts -->
+          <div class="emailList__settings">
+            <div class="emailList__settingsLeft">
+              <input type="checkbox" />
+              <span class="material-icons"> arrow_drop_down </span>
+              <span class="material-icons"> redo </span>
+              <span class="material-icons"> more_vert </span>
+            </div>
+            <div class="emailList__settingsRight">
+              <span class="material-icons"> chevron_left </span>
+              <span class="material-icons"> chevron_right </span>
+              <span class="material-icons"> keyboard_hide </span>
+              <span class="material-icons"> settings </span>
+            </div>
+          </div>
+          <!-- Settings Ends -->
+
+          <!-- Section Starts -->
+          <div class="emailList__sections">
+            <div class="section section__selected">
+              <span class="material-icons"> inbox </span>
+              <h4>Primary</h4>
+            </div>
+
+            <div class="section">
+              <span class="material-icons"> people </span>
+              <h4>Social</h4>
+            </div>
+
+            <div class="section">
+              <span class="material-icons"> local_offer </span>
+              <h4>Promotions</h4>
+            </div>
+          </div>
+
+      <!-- Email List rows starts -->
+      <div class="emailList__list">
+        <!-- Email Row Starts -->
+        <div class="emailRow">
+          <div class="emailRow__options">
+            <input type="checkbox" name="" id="" />
+            <span class="material-icons"> star_border </span>
+            <span class="material-icons"> label_important </span>
+          </div>
+
+          <h3 class="emailRow__title">Guvi</h3>
+
+          <div class="emailRow__message">
+            <h4>
+              B231 WD Hackathon Task - GMAIL CLONE
+              <span class="emailRow__description"> -  zen class </span>
+            </h4>
+          </div>
+
+          <p class="emailRow__time">11.59pm</p>
+        </div>
+      <!-- Email Row Ends -->
+
+      <!-- Email Row Starts -->
+      <div class="emailRow">
+        <div class="emailRow__options">
+          <input type="checkbox" name="" id="" />
+          <span class="material-icons"> star_border </span>
+          <span class="material-icons"> label_important </span>
+        </div>
+
+        <h3 class="emailRow__title">GitHub</h3>
+
+        <div class="emailRow__message">
+          <h4>
+            A sign in attempt requires further verification
+            <span class="emailRow__description"> - GitHub Team </span>
+          </h4>
+        </div>
+
+        <p class="emailRow__time">11.55pm</p>
+      </div>
+    <!-- Email Row Ends -->
+
+    <!-- Email Row Starts -->
+    <div class="emailRow">
+      <div class="emailRow__options">
+        <input type="checkbox" name="" id="" />
+        <span class="material-icons"> star_border </span>
+        <span class="material-icons"> label_important </span>
+      </div>
+
+      <h3 class="emailRow__title">Swiggy Genie</h3>
+
+      <div class="emailRow__message">
+        <h4>
+          What you should be doing today
+          <span class="emailRow__description"> - crack it or eat it </span>
+        </h4>
+      </div>
+
+      <p class="emailRow__time">11.30pm</p>
+    </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">Paytm</h3>
+
+    <div class="emailRow__message">
+      <h4>
+        Get upto ₹2,000 Bonus on Your 1st Deposit!
+        <span class="emailRow__description"> - c.Deposit </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">10.30pm</p>
+  </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">Paytm</h3>
+
+    <div class="emailRow__message">
+      <h4>
+        Get upto ₹2,000 Bonus on Your 1st Deposit!
+        <span class="emailRow__description"> -c.Deposit  </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">10.15pm</p>
+  </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">Upstox </h3>
+
+    <div class="emailRow__message">
+      <h4>
+        Weekend Watch: Experts explaining financial topics easily!
+        <span class="emailRow__description"> -  try it </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">10.09pm</p>
+  </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">Finshots Markets </h3>
+
+    <div class="emailRow__message">
+      <h4>
+        A rebound in the cards for DMart
+        <span class="emailRow__description"> - Finshots </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">10.05pm</p>
+  </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">Uber</h3>
+
+    <div class="emailRow__message">
+      <h4>
+        get 50% cashback up to ₹ 100 with Amazon Pay
+        <span class="emailRow__description"> - Uber it or try it </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">10.01pm</p>
+  </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">Zerodha Broking Ltd</h3>
+
+    <div class="emailRow__message">
+      <h4>
+        Weekly Equity Statements for Zerodha Broking Ltd account
+        <span class="emailRow__description"> - Zerodha </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">9.50pm</p>
+  </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">BSE ALERTS</h3>
+
+    <div class="emailRow__message">
+      <h4>
+        the funds and securities balances provided
+        <span class="emailRow__description"> - BSE </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">9.35pm</p>
+  </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">Freelancer.com</h3>
+
+    <div class="emailRow__message">
+      <h4>
+        you need a new one
+        <span class="emailRow__description"> - Freelancer </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">9.30pm</p>
+  </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">Udemy </h3>
+
+    <div class="emailRow__message">
+      <h4>
+        Sale of the season starts now — courses from ₹385
+        <span class="emailRow__description"> - Udemy </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">9.05pm</p>
+  </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">Gradeup</h3>
+
+    <div class="emailRow__message">
+      <h4>
+        Don't miss these important updates. Know how!
+        <span class="emailRow__description"> - cGradeupit </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">9.00pm</p>
+  </div>
+  <!-- Email Row Ends -->
+
+  <!-- Email Row Starts -->
+  <div class="emailRow">
+    <div class="emailRow__options">
+      <input type="checkbox" name="" id="" />
+      <span class="material-icons"> star_border </span>
+      <span class="material-icons"> label_important </span>
+    </div>
+
+    <h3 class="emailRow__title">Udemy</h3>
+
+    <div class="emailRow__message">
+      <h4>
+        Don't miss these important updates. Know how!
+        <span class="emailRow__description"> - Gradeup </span>
+      </h4>
+    </div>
+
+    <p class="emailRow__time">8.30pm</p>
+  </div>
+<!-- Email Row Ends -->
+     </div>  
+  </body>
+</html>
